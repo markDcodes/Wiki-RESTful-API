@@ -1,6 +1,7 @@
 //jshint esversion:6
 //Backend Only RESTful API. Used Postman to to test API (meaning no front-end needed)
 //Intialized MongoDB with Robo3T
+//Allows users to GET (read), POST (create), PUT/PATCH (update), or DELETE "Articles" to a database.
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
